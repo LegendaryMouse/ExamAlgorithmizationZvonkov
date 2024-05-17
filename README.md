@@ -6,4 +6,5 @@
 ##     result = number * number
 ##     return result
 # print(pov(3))
+# 9
 # Данная функция при вызове возвращает квадрат числа благодаря использованию return
