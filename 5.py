@@ -10,6 +10,8 @@ import random
 import time
 
 sick = 0
+print("Оценки за 10 дней:")
+print()
 for i in range(10):
     class Mark:
         date = time.ctime()
@@ -24,4 +26,7 @@ for i in range(10):
     print("Дата: " + Mark.date + " Оценка: " + Mark.Estimation)
 
 
+print()
 print("Количество пропусков по болезни: " + str(sick))
+
+
